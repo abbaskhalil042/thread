@@ -1,9 +1,13 @@
-
+import FindUser from "../../components/search/FindUser";
+import ListUser from "../../components/search/ListUser";
 
 const Search = () => {
   return (
-    <div>Search</div>
-  )
-}
+    <section>
+      <FindUser />
+      <ListUser />
+    </section>
+  );
+};
 
-export default Search
+export default Search;

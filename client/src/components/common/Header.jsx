@@ -40,7 +40,9 @@ const Header = () => {
         </ul>
         <ul>
           <li className="hover:text-gray-500 transition-all ">
-            <User />
+            <Link to="/profile/threads/1">
+              <User />
+            </Link>
           </li>
         </ul>
       </div>
